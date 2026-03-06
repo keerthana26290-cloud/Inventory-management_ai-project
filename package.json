@@ -1,0 +1,19 @@
+{
+  "name": "nm-backend-project",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^4.18.2",
+    "mongodb": "^6.0.0",
+    "nodemon": "^3.1.11"
+  }
+}
